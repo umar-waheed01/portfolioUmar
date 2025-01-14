@@ -3,7 +3,7 @@ import profile_img from "../../assets/profile_img.jpeg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-title">
         <h1>About Me</h1>
       </div>
@@ -22,9 +22,14 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              I'am a front-end developer with over a decade of professional expertise in the field
+              I'm a skilled Front-End Developer with 1.5 years of professional experience in
+              designing and developing user-friendly web and mobile applications.
             </p>
-            <p>My passion for front development is not only </p>
+            <p>
+              I've worked on multiple projects and had the chance to grow my skills while working
+              with two great companies. Currently, I'm proud to be part of the team at G7
+              Technologies.
+            </p>
           </div>
           <div className="about-skills">
             <div className="about-skill">
@@ -38,8 +43,13 @@ const About = () => {
             </div>
 
             <div className="about-skill">
-              <p>React Native</p>
+              <p>Tailwind CSS</p>
               <hr style={{ width: "60%" }} />
+            </div>
+
+            <div className="about-skill">
+              <p>React Native</p>
+              <hr style={{ width: "70%" }} />
             </div>
 
             <div className="about-skill">
@@ -58,18 +68,18 @@ const About = () => {
       <div className="about-achievements">
         <div className="about-achievement">
           <h1>1+</h1>
-          <p>YEARS OF EXPERIENCE</p>
+          <p>YEAR OF EXPERIENCE</p>
         </div>
         <hr />
 
         <div className="about-achievement">
-          <h1>20+</h1>
+          <h1>10+</h1>
           <p>PROJECTS COMPLETED</p>
         </div>
         <hr />
 
         <div className="about-achievement">
-          <h1>15+</h1>
+          <h1>7+</h1>
           <p>HAPPY CLIENTS</p>
         </div>
       </div>

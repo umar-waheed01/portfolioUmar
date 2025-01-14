@@ -4,6 +4,10 @@
   align-items: center;
   margin: 20px 170px;
 }
+.navbar {
+  color: #da7625;
+  font-size: 25px;
+}
 .nav-menu {
   display: flex;
   align-items: center;
@@ -22,4 +26,15 @@
 }
 .nav-connect:hover {
   transform: scale(1.05);
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.anchor-link {
+  color: white;
+  text-decoration: none;
 }
